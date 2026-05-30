@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 310 150" role="img" aria-label="ODC logo">
-  <defs><style>.g{fill:none;stroke:#4b7b3f;stroke-width:6;stroke-linecap:round;stroke-linejoin:round}.t{fill:#4b7b3f;font-family:Arial, sans-serif;font-size:36px;font-weight:600;letter-spacing:18px}.c{fill:#f3a3b6}</style></defs>
-  <ellipse class="g" cx="155" cy="75" rx="140" ry="62"/>
-  <text class="t" x="76" y="56">ODC</text>
-  <path class="g" d="M28 74h254"/>
-  <path class="g" d="M88 99c34 25 99 25 134 0"/>
-  <circle class="c" cx="62" cy="75" r="13"/><circle class="c" cx="248" cy="75" r="13"/>
-</svg>
