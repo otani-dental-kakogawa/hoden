@@ -1,0 +1,11 @@
+about.html: CBCT count=0, exact transparent ODC logo img count=2, materials section=False
+access.html: CBCT count=0, exact transparent ODC logo img count=2, materials section=False
+faq.html: CBCT count=0, exact transparent ODC logo img count=2, materials section=False
+index.html: CBCT count=0, exact transparent ODC logo img count=2, materials section=False
+recruit.html: CBCT count=0, exact transparent ODC logo img count=2, materials section=False
+  recruit 未経験 count=9, 育て count=8
+reservation.html: CBCT count=0, exact transparent ODC logo img count=2, materials section=False
+treatment.html: CBCT count=0, exact transparent ODC logo img count=2, materials section=True
+  treatment materials image count=7
+ODCロゴ: 指定ヘッダーから切り抜いた透明PNGをHTML内に直接埋め込み
+住所: 兵庫県加古川市西神吉町岸152-3
