@@ -1,0 +1,15 @@
+about.html: CBCT=0, duplicated_CT=0, screenshot_recruitQA=0, materials_section=0
+access.html: CBCT=0, duplicated_CT=0, screenshot_recruitQA=0, materials_section=0
+faq.html: CBCT=0, duplicated_CT=0, screenshot_recruitQA=0, materials_section=0
+index.html: CBCT=0, duplicated_CT=0, screenshot_recruitQA=0, materials_section=0
+recruit.html: CBCT=0, duplicated_CT=0, screenshot_recruitQA=1, materials_section=0
+reservation.html: CBCT=0, duplicated_CT=0, screenshot_recruitQA=0, materials_section=0
+treatment.html: CBCT=0, duplicated_CT=0, screenshot_recruitQA=0, materials_section=1
+
+Treatment page changes:
+- Removed accidental smartphone/recruit Q&A screenshot image from materials section.
+- Moved bridge/crown/inlay/front-tooth material images to lower section.
+- Material images set to one-column, larger display.
+- Treatment explanations expanded and individualized.
+- Preventive dentistry includes patient-friendly evidence-based rationale for maintenance.
+- ODC logo stroke-width increased to 6.8.
