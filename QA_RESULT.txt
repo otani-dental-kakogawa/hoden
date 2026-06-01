@@ -1,6 +1,0 @@
-CBCT count: 0
-住所 correct: True
-form URL present: True
-歯科用CT count: 19
-訪問歯科 count: 0
-在宅診療 count: 0
