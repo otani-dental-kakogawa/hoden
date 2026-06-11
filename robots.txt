@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://otani-dental-kakogawa.github.io/hoden/sitemap.xml
