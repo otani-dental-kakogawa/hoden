@@ -488,44 +488,72 @@ footer .footer-links a{
   </a>
   <div class="drawer-hours">
     <strong>診療時間</strong>
-    <div style="width:100%;overflow-x:auto;margin-top:12px;">
-      <table style="width:100%;min-width:350px;border-collapse:collapse;table-layout:fixed;font-size:.78rem;">
-        <thead>
-          <tr>
-            <th style="padding:9px 4px;border:1px solid #dbe3d5;background:#eef5e9;">診療時間</th>
-            <th style="padding:9px 4px;border:1px solid #dbe3d5;background:#eef5e9;">月</th>
-            <th style="padding:9px 4px;border:1px solid #dbe3d5;background:#eef5e9;">火</th>
-            <th style="padding:9px 4px;border:1px solid #dbe3d5;background:#eef5e9;">水</th>
-            <th style="padding:9px 4px;border:1px solid #dbe3d5;background:#eef5e9;">木</th>
-            <th style="padding:9px 4px;border:1px solid #dbe3d5;background:#eef5e9;">金</th>
-            <th style="padding:9px 4px;border:1px solid #dbe3d5;background:#eef5e9;">土</th>
-            <th style="padding:9px 4px;border:1px solid #dbe3d5;background:#eef5e9;">日祝</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <th style="padding:9px 4px;border:1px solid #dbe3d5;background:#fafbf8;">9:00〜<br>12:30</th>
-            <td style="padding:9px 4px;border:1px solid #dbe3d5;color:#2d8b55;">●</td>
-            <td style="padding:9px 4px;border:1px solid #dbe3d5;color:#2d8b55;">●</td>
-            <td style="padding:9px 4px;border:1px solid #dbe3d5;color:#2d8b55;">●</td>
-            <td style="padding:9px 4px;border:1px solid #dbe3d5;">／</td>
-            <td style="padding:9px 4px;border:1px solid #dbe3d5;color:#2d8b55;">●</td>
-            <td style="padding:9px 4px;border:1px solid #dbe3d5;color:#2d8b55;">●</td>
-            <td style="padding:9px 4px;border:1px solid #dbe3d5;">／</td>
-          </tr>
-          <tr>
-            <th style="padding:9px 4px;border:1px solid #dbe3d5;background:#fafbf8;">15:00〜<br>19:00</th>
-            <td style="padding:9px 4px;border:1px solid #dbe3d5;color:#2d8b55;">●</td>
-            <td style="padding:9px 4px;border:1px solid #dbe3d5;color:#2d8b55;">●</td>
-            <td style="padding:9px 4px;border:1px solid #dbe3d5;color:#2d8b55;">●</td>
-            <td style="padding:9px 4px;border:1px solid #dbe3d5;">／</td>
-            <td style="padding:9px 4px;border:1px solid #dbe3d5;color:#2d8b55;">●</td>
-            <td style="padding:9px 4px;border:1px solid #dbe3d5;color:#2d8b55;">▲</td>
-            <td style="padding:9px 4px;border:1px solid #dbe3d5;">／</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
+    <div style="width:100%;margin-top:12px;overflow:visible;">
+  <div style="
+    margin:0 0 10px;
+    padding:10px 12px;
+    border-radius:12px;
+    background:#f7faf4;
+    color:#333;
+    text-align:left;
+    font-size:.78rem;
+    line-height:1.7;
+  ">
+    <strong>午前</strong>　9:00〜12:30<br>
+    <strong>午後</strong>　15:00〜19:00
+  </div>
+  <table style="
+    width:100%;
+    border-collapse:collapse;
+    table-layout:fixed;
+    font-size:clamp(.58rem,2.3vw,.72rem);
+  ">
+    <colgroup>
+      <col style="width:24%;">
+      <col style="width:10.85%;">
+      <col style="width:10.85%;">
+      <col style="width:10.85%;">
+      <col style="width:10.85%;">
+      <col style="width:10.85%;">
+      <col style="width:10.85%;">
+      <col style="width:10.85%;">
+    </colgroup>
+    <thead>
+      <tr>
+        <th style="padding:7px 1px;border:1px solid #dbe3d5;background:#eef5e9;">区分</th>
+        <th style="padding:7px 1px;border:1px solid #dbe3d5;background:#eef5e9;">月</th>
+        <th style="padding:7px 1px;border:1px solid #dbe3d5;background:#eef5e9;">火</th>
+        <th style="padding:7px 1px;border:1px solid #dbe3d5;background:#eef5e9;">水</th>
+        <th style="padding:7px 1px;border:1px solid #dbe3d5;background:#eef5e9;">木</th>
+        <th style="padding:7px 1px;border:1px solid #dbe3d5;background:#eef5e9;">金</th>
+        <th style="padding:7px 1px;border:1px solid #dbe3d5;background:#eef5e9;">土</th>
+        <th style="padding:7px 1px;border:1px solid #dbe3d5;background:#eef5e9;">日祝</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th style="padding:9px 1px;border:1px solid #dbe3d5;background:#fafbf8;">午前</th>
+        <td style="padding:9px 1px;border:1px solid #dbe3d5;color:#2d8b55;">●</td>
+        <td style="padding:9px 1px;border:1px solid #dbe3d5;color:#2d8b55;">●</td>
+        <td style="padding:9px 1px;border:1px solid #dbe3d5;color:#2d8b55;">●</td>
+        <td style="padding:9px 1px;border:1px solid #dbe3d5;">／</td>
+        <td style="padding:9px 1px;border:1px solid #dbe3d5;color:#2d8b55;">●</td>
+        <td style="padding:9px 1px;border:1px solid #dbe3d5;color:#2d8b55;">●</td>
+        <td style="padding:9px 1px;border:1px solid #dbe3d5;">／</td>
+      </tr>
+      <tr>
+        <th style="padding:9px 1px;border:1px solid #dbe3d5;background:#fafbf8;">午後</th>
+        <td style="padding:9px 1px;border:1px solid #dbe3d5;color:#2d8b55;">●</td>
+        <td style="padding:9px 1px;border:1px solid #dbe3d5;color:#2d8b55;">●</td>
+        <td style="padding:9px 1px;border:1px solid #dbe3d5;color:#2d8b55;">●</td>
+        <td style="padding:9px 1px;border:1px solid #dbe3d5;">／</td>
+        <td style="padding:9px 1px;border:1px solid #dbe3d5;color:#2d8b55;">●</td>
+        <td style="padding:9px 1px;border:1px solid #dbe3d5;color:#2d8b55;">▲</td>
+        <td style="padding:9px 1px;border:1px solid #dbe3d5;">／</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
     <small style="display:block;margin-top:12px;line-height:1.65;">
       ▲ 土曜午後は14:00〜18:00<br>
       祝祭日のある週の木曜日は診療します。
