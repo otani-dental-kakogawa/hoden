@@ -88,6 +88,42 @@ footer .container.footer-rich .footer-brand .note{
   footer .container.footer-rich .footer-brand h2{
     font-size:clamp(1.4rem,6vw,1.85rem) !important;
   }
+}/* フッターの強みを2列×4段に整える */
+footer .badge-row{
+  display:grid !important;
+  grid-template-columns:repeat(2,minmax(0,1fr)) !important;
+  gap:12px !important;
+  width:100% !important;
+  margin:24px 0 !important;
+}
+footer .badge-row .badge{
+  display:flex !important;
+  align-items:center !important;
+  justify-content:center !important;
+  width:auto !important;
+  min-width:0 !important;
+  min-height:92px !important;
+  margin:0 !important;
+  padding:14px 10px !important;
+  box-sizing:border-box !important;
+  border-radius:24px !important;
+  text-align:center !important;
+  font-size:clamp(.9rem,3.6vw,1.08rem) !important;
+  font-weight:700 !important;
+  line-height:1.4 !important;
+  white-space:normal !important;
+  word-break:keep-all !important;
+}
+@media (max-width:390px){
+  footer .badge-row{
+    gap:10px !important;
+  }
+  footer .badge-row .badge{
+    min-height:84px !important;
+    padding:12px 7px !important;
+    font-size:.88rem !important;
+    border-radius:21px !important;
+  }
 }
 </style></head><body><header class="site-header"><div class="header-shell"><a class="header-logo" href="index.html"><svg class="odc-logo odc-logo-svg" viewBox="0 0 169 108" aria-label="ODCロゴ" role="img" xmlns="http://www.w3.org/2000/svg">
   <g fill="none" stroke="#5d7d42" stroke-width="6.8" stroke-linecap="round" stroke-linejoin="round">
@@ -148,12 +184,15 @@ footer .container.footer-rich .footer-brand .note{
   </g>
   <circle cx="35" cy="61" r="7" fill="#f3a9b5"/><circle cx="134" cy="61" r="7" fill="#f3a9b5"/>
 </svg><div><h2>大谷歯科クリニック</h2><p class="note">地域に根ざして40年以上。お子さまからご高齢の方まで、家族で通いやすい地域の歯科医院です。</p></div></div><div class="badge-row">
-  <span class="badge">歯科用CT完備</span>
-  <span class="badge">口腔内スキャナー導入</span>
-  <span class="badge">4K高精細デジタルマイクロスコープ導入</span>
-  <span class="badge">口腔外科に対応</span>
-  <span class="badge">矯正医在籍</span>
-  <span class="badge">静脈内鎮静法に対応</span>
-  <span class="badge">予防・メンテナンスを重視</span>
+  <span class="badge">歯科用CT</span>
+  <span class="badge">口腔内スキャナー</span>
+  <span class="badge">
+    4K高精細<br>
+    デジタルマイクロスコープ
+  </span>
+  <span class="badge">親知らず・口腔外科</span>
+  <span class="badge">矯正歯科</span>
+  <span class="badge">静脈内鎮静法</span>
+  <span class="badge">予防・メンテナンス</span>
   <span class="badge">キッズスペース</span>
 </div><p>一般歯科・小児歯科・予防歯科・口腔外科・矯正歯科・インプラント・審美歯科・入れ歯・静脈内鎮静法まで、幅広いお悩みに対応します。</p><div class="reserve-box"><strong>完全予約制</strong><br>初診・急患の方も対応しています。強い痛み・腫れ・出血・外傷など急ぎの場合は、お電話でご相談ください。</div></div><div class="white-card"><h3>医院情報</h3><p>〒675-0045<br>兵庫県加古川市西神吉町岸152-3<br><a href="tel:0794328770">TEL：079-432-8770</a><br>JR宝殿駅北口より徒歩4分<br>駐車場完備</p><div class="schedule-wrap compact-schedule"><h3>診療時間</h3><table class="schedule-table"><thead><tr><th>診療時間</th><th>月</th><th>火</th><th>水</th><th>木</th><th>金</th><th>土</th><th>日祝</th></tr></thead><tbody><tr><td>9:00〜12:30</td><td class="open">●</td><td class="open">●</td><td class="open">●</td><td class="closemark">／</td><td class="open">●</td><td class="open">●</td><td class="closemark">／</td></tr><tr><td>15:00〜19:00</td><td class="open">●</td><td class="open">●</td><td class="open">●</td><td class="closemark">／</td><td class="open">●</td><td class="tri">▲</td><td class="closemark">／</td></tr></tbody></table><p class="note">▲ 土曜午後は14:00〜18:00　／　祝祭日のある週の木曜日は診療します。</p></div><h3>ページ</h3><div class="footer-links"><a href="treatment.html">診療内容</a><a href="about.html">院長・医院紹介</a><a href="faq.html">よくある質問</a><a href="access.html">アクセス</a><a href="reservation.html">WEB予約</a><a href="recruit.html">採用情報</a></div></div><div class="footer-map"><iframe class="map" loading="lazy" src="https://www.google.com/maps?q=%E5%85%B5%E5%BA%AB%E7%9C%8C%E5%8A%A0%E5%8F%A4%E5%B7%9D%E5%B8%82%E8%A5%BF%E7%A5%9E%E5%90%89%E7%94%BA%E5%B2%B8152-3%20%E5%A4%A7%E8%B0%B7%E6%AD%AF%E7%A7%91%E3%82%AF%E3%83%AA%E3%83%8B%E3%83%83%E3%82%AF&output=embed" referrerpolicy="no-referrer-when-downgrade"></iframe></div></div></footer><div class="bottom-cta"><a class="cta-reserve" href="https://docs.google.com/forms/d/e/1FAIpQLSc02gmIEZNWJE6JWPG1dXtvnsOhDonfTxqBr8KvjWhz_xLQvQ/viewform?usp=preview"><span>WEB予約</span><small>24時間受付</small></a><a class="cta-phone" href="tel:0794328770"><span>079-432-8770</span><small>お電話はこちら</small></a><a class="cta-recruit" href="recruit.html"><span>採用情報</span><small>見学大歓迎</small></a></div><script>document.addEventListener('DOMContentLoaded',()=>{const h=document.querySelector('.site-header');const f=()=>{window.scrollY>78?h.classList.add('scrolled'):h.classList.remove('scrolled')};f();window.addEventListener('scroll',f,{passive:true});const m=document.querySelector('.menu-panel');document.querySelectorAll('[data-menu-open]').forEach(b=>b.addEventListener('click',()=>m.classList.add('open')));document.querySelectorAll('[data-menu-close],.menu-panel a').forEach(b=>b.addEventListener('click',()=>m.classList.remove('open')));});</script></body></html>
