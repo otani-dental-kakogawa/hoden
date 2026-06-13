@@ -23,7 +23,53 @@ body{padding-bottom:142px}
 @media (max-width:390px){.strength-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important}.strength-card{padding:14px 12px}.strength-card p{font-size:.8rem;line-height:1.62}.bottom-cta{gap:7px}.bottom-cta a{font-size:.82rem}}
 
 .odc-logo-svg{display:block;width:100%;height:auto;background:transparent!important;overflow:visible;box-shadow:none!important;filter:none!important}.footer-brand .odc-logo-svg{width:125px;flex:0 0 auto}.materials-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px;margin-top:24px}.material-poster{background:#fff;border:1px solid var(--line);border-radius:26px;padding:12px;box-shadow:var(--shadow)}.material-poster img{width:100%;height:auto;border-radius:18px;border:1px solid #eee}.material-note{margin-top:14px;color:#5d564d}.job-tag-row{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0}.job-tag{display:inline-flex;align-items:center;border-radius:999px;padding:7px 12px;background:#edf6e8;border:1px solid #d7e5ce;color:#2f6f44;font-weight:900;font-size:.9rem}
-@media(max-width:700px){.materials-grid{grid-template-columns:1fr}.material-poster{padding:8px;border-radius:20px}.job-card p,.highlight-copy p{line-height:1.8}.job-tag{font-size:.82rem}}
+@media(max-width:700px){.materials-grid{grid-template-columns:1fr}.material-poster{padding:8px;border-radius:20px}.job-card p,.highlight-copy p{line-height:1.8}.job-tag{font-size:.82rem}}<style>
+/* ハンバーガーメニュー内の巨大な空白を強制的になくす */
+aside.menu-panel,
+aside.menu-panel.menu-panel-rich{
+  display:block !important;
+  justify-content:flex-start !important;
+  align-content:start !important;
+  height:100dvh !important;
+  min-height:0 !important;
+  overflow-y:auto !important;
+}
+/* メニューリンク部分が縦に伸びないようにする */
+aside.menu-panel nav,
+aside.menu-panel .drawer-nav{
+  display:flex !important;
+  flex-direction:column !important;
+  justify-content:flex-start !important;
+  flex:none !important;
+  height:auto !important;
+  min-height:0 !important;
+  max-height:none !important;
+  margin:0 !important;
+  padding-bottom:0 !important;
+}
+/* 採用情報の直後に電話・診療時間を表示 */
+aside.menu-panel .drawer-contact{
+  display:block !important;
+  position:static !important;
+  inset:auto !important;
+  flex:none !important;
+  clear:both !important;
+  height:auto !important;
+  min-height:0 !important;
+  max-height:none !important;
+  margin:14px 0 0 !important;
+  padding-top:18px !important;
+  transform:none !important;
+}
+/* 診療時間部分にも余計な高さを持たせない */
+aside.menu-panel .drawer-hours{
+  position:static !important;
+  height:auto !important;
+  min-height:0 !important;
+  max-height:none !important;
+  margin-top:14px !important;
+}
+</style>
 </style><script type="application/ld+json">
 {
   "@context": "https://schema.org",
