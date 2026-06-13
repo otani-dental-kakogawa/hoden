@@ -494,6 +494,88 @@ footer .footer-links a{
     font-size:clamp(.68rem,2.85vw,.86rem);
     line-height:1.25;
   }
+}/* ===== トップ：特徴カード 最終修正版 ===== */
+.hero-feature-grid{
+  display:grid !important;
+  grid-template-columns:repeat(2, minmax(0, 1fr)) !important;
+  gap:14px !important;
+  width:100% !important;
+  max-width:100% !important;
+  margin:28px 0 !important;
+  padding:0 !important;
+  box-sizing:border-box !important;
+  position:relative !important;
+}
+.hero-feature-grid > .hero-feature-card{
+  display:flex !important;
+  flex-direction:column !important;
+  align-items:center !important;
+  justify-content:center !important;
+  width:auto !important;
+  max-width:none !important;
+  min-width:0 !important;
+  min-height:118px !important;
+  height:auto !important;
+  margin:0 !important;
+  padding:14px 8px !important;
+  box-sizing:border-box !important;
+  position:relative !important;
+  inset:auto !important;
+  float:none !important;
+  transform:none !important;
+  border:1.5px solid rgba(93,125,66,.25) !important;
+  border-radius:26px !important;
+  background:rgba(255,255,255,.92) !important;
+  box-shadow:0 10px 28px rgba(50,65,45,.08) !important;
+  color:#185a3d !important;
+  text-align:center !important;
+  font-size:clamp(.92rem,3.8vw,1.28rem) !important;
+  font-weight:800 !important;
+  line-height:1.45 !important;
+  letter-spacing:0 !important;
+  white-space:normal !important;
+  word-break:keep-all !important;
+  overflow-wrap:anywhere !important;
+  overflow:hidden !important;
+  backdrop-filter:blur(5px) !important;
+  -webkit-backdrop-filter:blur(5px) !important;
+}
+.hero-feature-grid > .hero-feature-card-long{
+  font-size:clamp(.82rem,3.35vw,1.08rem) !important;
+}
+/* マイクロスコープ専用 */
+.hero-feature-grid > .hero-feature-card-microscope{
+  gap:2px !important;
+  padding:10px 3px !important;
+  font-size:clamp(.68rem,2.9vw,.94rem) !important;
+  line-height:1.25 !important;
+}
+.hero-feature-card-microscope span{
+  display:block !important;
+  width:100% !important;
+  margin:0 !important;
+  padding:0 !important;
+  text-align:center !important;
+  white-space:nowrap !important;
+}
+@media (max-width:390px){
+  .hero-feature-grid{
+    gap:10px !important;
+  }
+  .hero-feature-grid > .hero-feature-card{
+    min-height:105px !important;
+    padding:12px 6px !important;
+    border-radius:22px !important;
+    font-size:.94rem !important;
+  }
+  .hero-feature-grid > .hero-feature-card-long{
+    font-size:.82rem !important;
+  }
+  .hero-feature-grid > .hero-feature-card-microscope{
+    padding:8px 2px !important;
+    font-size:.72rem !important;
+    line-height:1.22 !important;
+  }
 }
 </style></head><body><header class="site-header"><div class="header-shell"><a class="header-logo" href="index.html"><svg class="odc-logo odc-logo-svg" viewBox="0 0 169 108" aria-label="ODCロゴ" role="img" xmlns="http://www.w3.org/2000/svg">
   <g fill="none" stroke="#5d7d42" stroke-width="6.8" stroke-linecap="round" stroke-linejoin="round">
