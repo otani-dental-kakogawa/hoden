@@ -468,6 +468,32 @@ footer .footer-links a{
   font-size:.9rem !important;
   font-weight:700 !important;
   line-height:1.65 !important;
+}/* 4K高精細デジタルマイクロスコープ専用 */
+.hero-feature-card-microscope{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  gap:3px;
+  padding:12px 5px;
+  font-size:clamp(.72rem,3vw,1rem);
+  line-height:1.28;
+  white-space:normal;
+  word-break:keep-all;
+  overflow:hidden;
+}
+.hero-feature-card-microscope span{
+  display:block;
+  width:100%;
+  text-align:center;
+  white-space:nowrap;
+}
+@media (max-width:390px){
+  .hero-feature-card-microscope{
+    padding:10px 3px;
+    font-size:clamp(.68rem,2.85vw,.86rem);
+    line-height:1.25;
+  }
 }
 </style></head><body><header class="site-header"><div class="header-shell"><a class="header-logo" href="index.html"><svg class="odc-logo odc-logo-svg" viewBox="0 0 169 108" aria-label="ODCロゴ" role="img" xmlns="http://www.w3.org/2000/svg">
   <g fill="none" stroke="#5d7d42" stroke-width="6.8" stroke-linecap="round" stroke-linejoin="round">
