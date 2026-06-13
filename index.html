@@ -41,7 +41,55 @@ body{padding-bottom:142px}
   "sameAs": [
     "https://www.instagram.com/otani_dentalclinic_kakogawa/"
   ]
-}</script></head><body><header class="site-header"><div class="header-shell"><a class="header-logo" href="index.html"><svg class="odc-logo odc-logo-svg" viewBox="0 0 169 108" aria-label="ODCロゴ" role="img" xmlns="http://www.w3.org/2000/svg">
+}</script><style>
+/* 上部ヘッダーは変えず、フッターのロゴ部分だけ変更 */
+footer .container.footer-rich .footer-brand{
+  display:flex !important;
+  flex-direction:column !important;
+  align-items:center !important;
+  justify-content:center !important;
+  gap:10px !important;
+  text-align:center !important;
+}
+/* フッターのODCロゴ */
+footer .container.footer-rich .footer-brand > svg{
+  display:block !important;
+  width:190px !important;
+  max-width:70% !important;
+  height:auto !important;
+  margin:0 auto !important;
+}
+/* ロゴの下の医院名・説明 */
+footer .container.footer-rich .footer-brand > div{
+  width:100% !important;
+  text-align:center !important;
+}
+footer .container.footer-rich .footer-brand h2{
+  margin:2px 0 8px !important;
+  color:#5d7d42 !important;
+  font-size:clamp(1.5rem,6vw,2rem) !important;
+  line-height:1.25 !important;
+  letter-spacing:.02em !important;
+  white-space:nowrap !important;
+  word-break:keep-all !important;
+}
+footer .container.footer-rich .footer-brand .note{
+  margin:0 auto !important;
+  max-width:560px !important;
+  text-align:center !important;
+  font-size:.95rem !important;
+  line-height:1.75 !important;
+}
+@media (max-width:700px){
+  footer .container.footer-rich .footer-brand > svg{
+    width:175px !important;
+    max-width:70% !important;
+  }
+  footer .container.footer-rich .footer-brand h2{
+    font-size:clamp(1.4rem,6vw,1.85rem) !important;
+  }
+}
+</style></head><body><header class="site-header"><div class="header-shell"><a class="header-logo" href="index.html"><svg class="odc-logo odc-logo-svg" viewBox="0 0 169 108" aria-label="ODCロゴ" role="img" xmlns="http://www.w3.org/2000/svg">
   <g fill="none" stroke="#5d7d42" stroke-width="6.8" stroke-linecap="round" stroke-linejoin="round">
     <ellipse cx="84.5" cy="54" rx="75" ry="43"/>
     <path d="M43 72c14 14 68 14 83 0"/>
